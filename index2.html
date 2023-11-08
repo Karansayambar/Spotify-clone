@@ -10,42 +10,45 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Nunito:wght@300&family=Poppins:wght@200&display=swap"
         rel="stylesheet">
-        <link rel="icon" sizes="32*32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
-        <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" sizes="32*32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <title>Spotify - Web Player: Music for everyone</title>
 </head>
 
 <body>
     <main class="container">
         <div class="sidebar">
             <img class="logo" src="./images/Spotify logo.svg" alt="">
-            <div class="top-icons">
-                <div class="link-flex">
-                    <img src="./images/fi-ss-home.svg" alt="home">
-                    <a href="#">Home</a>
+            <div class="home-section">
+                <div class="top-icons">
+                    <div class="link-flex">
+                        <img src="./images/fi-ss-home.svg" alt="home">
+                        <a href="#">Home</a>
+                    </div>
                 </div>
-            </div>
-            <div class="library">
-                <div class="link-flex">
-                    <img src="./images/search-icon.svg" alt="search">
-                    <a href="#">Search</a>
+                <div class="library">
+                    <div class="link-flex">
+                        <img src="./images/search-icon.svg" alt="search">
+                        <a href="#">Search</a>
+                    </div>
+                    <div class="link-flex">
+                        <img src="./images/library.svg" alt="">
+                        <p>library</p>
+                    </div>
                 </div>
-                <div class="link-flex">
-                    <img src="./images/library.svg" alt="">
-                    <p>library</p>
+                <div class="middle-icons">
+                    <div class="link-flex">
+                        <img src="./images/plus-round-icon.svg" alt="">
+                        <p>Create Playlist</p>
+                    </div>
+                    <div class="link-flex">
+                        <img src="./images/liked.svg" alt="">
+                        <p>Liked Songs</p>
+                    </div>
                 </div>
-            </div>
-            <div class="middle-icons">
-                <div class="link-flex">
-                    <img src="./images/plus-round-icon.svg" alt="">
-                    <p>Create Playlist</p>
+                <div class="art-albume">
+                    <img src="./images/album art.svg">
                 </div>
-                <div class="link-flex">
-                    <img src="./images/liked.svg" alt="">
-                    <p>Liked Songs</p>
-                </div>
-            </div>
-            <div class="art-albume">
-                <img src="./images/album art.svg">
             </div>
         </div>
         <div class="maincontainer-self">
@@ -361,30 +364,30 @@
                 </span>
                 <img class="small" src="./images/White-heart.svg" alt="">
                 <img class="small" src="./images/galary.svg">
-            </span>     
-                <div class="clip-player">
-                    <div class="player-control">
-                        <img src="./images/raphael_shuffle.svg">
-                        <img src="./images/bx_bx-skip-previous1.svg">
-                        <img src="./images/gridicons_play.svg">
-                        <img src="./images/bx_bx-skip-previous.svg">
-                        <img src="./images/fluent_arrow-repeat-all-20-regular.svg">
-                        <img>
-                    </div>
-                    <div>
-                        <span class="current-time">0:00</span>
-                        <input type="range" class="timeline-slider" min="0" max="100" step="1" value="70"/>
-                        <span class="total-time">0:00</span>
-                    </div>
+            </span>
+            <div class="clip-player">
+                <div class="player-control">
+                    <img src="./images/raphael_shuffle.svg">
+                    <img src="./images/bx_bx-skip-previous1.svg">
+                    <img src="./images/gridicons_play.svg">
+                    <img src="./images/bx_bx-skip-previous.svg">
+                    <img src="./images/fluent_arrow-repeat-all-20-regular.svg">
+                    <img>
                 </div>
-                <div class="clip-option">
-                    <img src="./images/menu-list.svg">
-                    <img src="./images/pc.svg">
-                    <span class="sound">
-                        <img src="./images/sound.svg">
-                        <input type="range" class="vol">
-                    </span>
+                <div>
+                    <span class="current-time">0:00</span>
+                    <input type="range" class="timeline-slider" min="0" max="100" step="1" value="70" />
+                    <span class="total-time">0:00</span>
                 </div>
+            </div>
+            <div class="clip-option">
+                <img src="./images/menu-list.svg">
+                <img src="./images/pc.svg">
+                <span class="sound">
+                    <img src="./images/sound.svg">
+                    <input type="range" class="vol">
+                </span>
+            </div>
         </div>
     </main>
 </body>
